@@ -3,6 +3,8 @@ const url = "https://newsapi.org/v2/everything?q=";
 
 window.addEventListener("load", () => fetchNews("India"));
 
+// ON RELOAD
+
 function reload() {
     window.location.reload();
 }
